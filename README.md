@@ -30,6 +30,7 @@
 - **统一入口**：所有原型文档化任务统一从 `product-dev` 进入
 - **双主产物**：固定产出 `需求文档.md` 与 `UI交互设计规范.md`
 - **模板继承 Picasso**：需求文档模板直接沿用 `picasso-dev-skill` 的强约束结构
+- **设计协同可插拔**：运行端如果已安装 `ui-ux-pro-max`，UI 阶段优先借助它补设计基线；未安装时自动回退到仓库内置设计规则
 - **Harness Engineering 思路收口**：入口小、上下文显式、约束脚本化、反馈可回放
 - **运行端兼容**：Claude、Codex、OpenClaw、OpenCode 均可接入
 - **易复制落地**：目录、脚本、模板、Gate、示例全部在仓库内闭环
@@ -72,6 +73,20 @@ product-dev-skill/
 - `product-dev-maintainer`
   - 负责维护 skill 包本身时的治理记录、变更说明和示例更新
 
+## 外部设计 skill 协同
+
+当前推荐与 `ui-ux-pro-max` 配合使用，但不是强依赖。
+
+规则如下：
+
+1. 若运行端可识别 `ui-ux-pro-max`
+   - 先让它输出风格方向、token、组件策略、动效、可访问性基线
+   - 再回填到 `product-dev-skill` 的模板结构中
+2. 若运行端不可识别 `ui-ux-pro-max`
+   - 自动回退到 `shared/references/design/`
+   - 继续按同一套模板输出，不中断主流程
+3. 即使运行端还能识别 `frontend-design` 等通用设计 skill，也不得把它们当成默认回退路径
+
 ## 方法层与适配层
 
 当前结构采用“主流程层 + 方法层 + 适配层”的表达方式：
@@ -111,6 +126,10 @@ product-dev-skill/
 - `logs/` 过程记录
 
 详细模板索引见 [shared/templates/README.md](/Users/qierkang/.codex/codex-workspace/product-dev-skill/shared/templates/README.md)。
+
+内置设计兜底参考见：
+
+- [shared/references/design/README.md](/Users/qierkang/.codex/codex-workspace/product-dev-skill/shared/references/design/README.md)
 
 ## 快速开始
 

@@ -5,7 +5,7 @@
   "current_task": "执行 ui gate",
   "blocking_issues": [],
   "next_action": "已通过全部 Gate，可沉淀示例或进入下游流程",
-  "updated_at": "2026-04-11T23:39:17",
+  "updated_at": "2026-04-12T01:33:31",
   "checks": {
     "requirement": "PASSED",
     "ui": "PASSED"
@@ -60,6 +60,21 @@
       "stage": "ui",
       "pass": true,
       "checked_at": "2026-04-11T23:39:17"
+    },
+    {
+      "stage": "ui",
+      "pass": true,
+      "checked_at": "2026-04-12T01:33:31"
+    },
+    {
+      "stage": "requirement",
+      "pass": true,
+      "checked_at": "2026-04-12T01:33:31"
+    },
+    {
+      "stage": "ui",
+      "pass": true,
+      "checked_at": "2026-04-12T01:33:31"
     }
   ]
 }

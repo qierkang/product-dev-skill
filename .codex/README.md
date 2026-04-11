@@ -11,6 +11,16 @@
 3. 若任务进入 UI 文档阶段，补读 `skills/product-dev-ui/SKILL.md`
 4. Codex 侧不单独维护第二套产品文档流程
 
+## UI 设计协同
+
+若 Codex 当前环境可识别 `ui-ux-pro-max`，UI 阶段优先协同它输出设计基线。
+
+若不可识别，则自动回退到：
+
+- `shared/references/design/README.md`
+
+即使当前环境还能识别 `frontend-design` 等通用设计 skill，也不得把它们当成默认回退路径。
+
 ## 重点边界
 
 - 先执行 `doctor.sh --capability docs`

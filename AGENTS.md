@@ -12,3 +12,7 @@
 10. `workspace/` 为运行区，默认不提交；`governance/` 为维护区，需要提交。
 11. 方法论增强统一由 `skills/product-dev-methods/SKILL.md` 提供。
 12. `.claude-plugin/`、`.codex/`、`.opencode/`、`.openclaw/` 为运行端适配层，不复制第二套主流程。
+13. 涉及原型转 UI 文档、风格方向、信息层级、组件策略时：
+   - 若当前运行端可识别 `ui-ux-pro-max`，优先用它补设计基线；
+   - 若不可识别，自动回退到 `shared/references/design/` 内置规则；
+   - 默认不得改用 `frontend-design` 或其他通用设计 skill 充当兜底，除非用户明确要求额外设计增强。
