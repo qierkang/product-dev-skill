@@ -1,0 +1,14 @@
+{
+  "request_key": "{{REQUEST_KEY}}",
+  "current_stage": "requirement",
+  "status": "IN_PROGRESS",
+  "current_task": "初始化需求目录",
+  "blocking_issues": [],
+  "next_action": "补充需求文档",
+  "updated_at": "{{CURRENT_DATE}}",
+  "checks": {
+    "requirement": "PENDING",
+    "ui": "PENDING"
+  },
+  "history": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "mode": "product-dev-skill-v1",
+  "request_key": "{{REQUEST_KEY}}",
+  "title": "{{REQUEST_TITLE}}",
+  "request_type": "{{REQUEST_TYPE}}",
+  "owner": "{{OWNER}}",
+  "status": "draft",
+  "current_stage": "requirement",
+  "created_at": "{{CURRENT_DATE}}",
+  "delivery_scope": [
+    "requirement",
+    "ui"
+  ],
+  "entrypoints": {
+    "overview": "00-需求总览.md",
+    "requirement": "需求文档.md",
+    "ui": "UI交互设计规范.md",
+    "stage_status": "stage-status.json"
+  },
+  "platforms": [
+    "pc-web"
+  ],
+  "input_assets": [],
+  "gates": {
+    "requirement": "PENDING",
+    "ui": "PENDING"
+  },
+  "profile": {
+    "name": "default",
+    "mode": "docs"
+  }
+}

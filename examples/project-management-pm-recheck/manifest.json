@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "mode": "product-dev-skill-v1",
+  "request_key": "project-management-pm-recheck",
+  "title": "项目管理需求复验",
+  "request_type": "new-feature",
+  "owner": "qierkang+codex",
+  "status": "ready",
+  "current_stage": "ui",
+  "created_at": "2026-04-11",
+  "delivery_scope": [
+    "requirement",
+    "ui"
+  ],
+  "entrypoints": {
+    "overview": "00-需求总览.md",
+    "requirement": "需求文档.md",
+    "ui": "UI交互设计规范.md",
+    "stage_status": "stage-status.json"
+  },
+  "platforms": [
+    "pc-web"
+  ],
+  "input_assets": [
+    "/Users/qierkang/Downloads/axure/项目看板.html",
+    "/Users/qierkang/Downloads/axure/项目详情-管理.html",
+    "/Users/qierkang/Downloads/axure/项目详情-新增.html"
+  ],
+  "gates": {
+    "requirement": "PASSED",
+    "ui": "PASSED"
+  },
+  "profile": {
+    "name": "default",
+    "mode": "docs"
+  }
+}
