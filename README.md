@@ -14,6 +14,12 @@
 
 第一次接手这个仓库，先看 [START-HERE.md](/Users/qierkang/.codex/codex-workspace/product-dev-skill/START-HERE.md)。
 
+## 🗺️ 架构图
+
+这张图把 `product-dev-skill` 的输入层、主流程层、伴生 skill、支撑层和标准输出层放在一张图里，适合先看整体链路。
+
+![product-dev-skill workflow architecture](./assets/architecture/workflow-architecture.png)
+
 ## 项目概述
 
 `product-dev-skill` 是从 `picasso-dev-skill` 与 `product-delivery-skill` 中抽离出来的产品交付子包。
