@@ -1,0 +1,19 @@
+name: Feature request
+description: Propose a prototype-analysis, template, or gate improvement.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Explain the prototype input and desired documentation outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe expected artifacts and gate behavior.
+    validations:
+      required: true

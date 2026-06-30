@@ -10,9 +10,9 @@
 
 ## 原始输入
 
-- `/Users/qierkang/Downloads/axure/项目看板.html`
-- `/Users/qierkang/Downloads/axure/项目详情-管理.html`
-- `/Users/qierkang/Downloads/axure/项目详情-新增.html`
+- `prototype-inputs/project-board.html`
+- `prototype-inputs/project-detail-manage.html`
+- `prototype-inputs/project-detail-create.html`
 
 ## 本轮额外验证点
 

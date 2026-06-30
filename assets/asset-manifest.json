@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "project": "product-dev-skill",
+  "required": [
+    {
+      "image_type": "architecture",
+      "locale": "zh-CN",
+      "path": "assets/platform/architecture/zh-CN/product-dev-skill-architecture.png",
+      "prompt_file": null,
+      "sha256": "712713c45292226ea00b09611c5bb7b46c572d083ba01170fc1ca383ca38be70",
+      "generated_at": "2026-06-29T19:17:57+00:00",
+      "generated_by": "image_gen"
+    },
+    {
+      "image_type": "architecture",
+      "locale": "en",
+      "path": "assets/platform/architecture/en/product-dev-skill-architecture.png",
+      "prompt_file": null,
+      "sha256": "d2568bee282135f41991835698874f7b93cdac080446928470d1b63183c97008",
+      "generated_at": "2026-06-29T19:20:54+00:00",
+      "generated_by": "image_gen"
+    }
+  ],
+  "extra": [
+    {
+      "image_type": "extra",
+      "path": "assets/social-preview.png",
+      "prompt_file": null,
+      "sha256": "dfd147d971ca217d222e754461821eac9dd869e75f9518bcfbf1ac115d2dbf18",
+      "generated_at": "2026-06-29T19:24:39+00:00",
+      "generated_by": "image_gen"
+    }
+  ],
+  "generated_at": "2026-06-29T19:17:57+00:00"
+}
