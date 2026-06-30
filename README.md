@@ -330,7 +330,13 @@ doctor 无 `FAIL`、示例 Gate 通过、README 与资产检查退出 `0` 才算
 公开仓库首次发布后，将通过 `platform-project-skill/scripts/add-star-history.sh` 写入真实图表。
 
 <!-- star-history:start -->
-Star History will be added after the first public push.
+<a href="https://www.star-history.com/?type=date&repos=qierkang%2Fproduct-dev-skill">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=qierkang/product-dev-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=qierkang/product-dev-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=qierkang/product-dev-skill&type=date&legend=top-left" />
+ </picture>
+</a>
 <!-- star-history:end -->
 
 ## 许可证
